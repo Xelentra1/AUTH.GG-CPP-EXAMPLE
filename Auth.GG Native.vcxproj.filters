@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="authgg.cpp">
+      <Filter>auth.gg</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="hwid.cpp">
+      <Filter>hwid</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>md5</Filter>
+    </ClCompile>
+    <ClCompile Include="md5wrapper.cpp">
+      <Filter>md5</Filter>
+    </ClCompile>
+    <ClCompile Include="print.cpp">
+      <Filter>print</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\auth.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\bearer.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\cookies.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\cprtypes.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\curl_container.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\curlholder.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\error.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\multipart.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\parameters.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\payload.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\proxies.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\response.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\session.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\timeout.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\unix_socket.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\util.cpp">
+      <Filter>cpr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="authgg.h">
+      <Filter>auth.gg</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="hwid.h">
+      <Filter>hwid</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>md5</Filter>
+    </ClInclude>
+    <ClInclude Include="md5wrapper.h">
+      <Filter>md5</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>print</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>xor</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\api.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\auth.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\bearer.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\body.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\callback.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\connect_timeout.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\cookies.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\cpr.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\cprtypes.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\curl_container.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\curlholder.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\digest.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\error.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\limit_rate.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\low_speed.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\max_redirects.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\multipart.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\ntlm.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\parameters.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\payload.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\proxies.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\response.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\session.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\ssl_options.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\status_codes.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\timeout.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\unix_socket.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\user_agent.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\util.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\verbose.h">
+      <Filter>cpr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="auth.gg">
+      <UniqueIdentifier>{4f6cc220-c1b7-487e-b66c-f7656b886be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{aa4c92aa-afcd-496a-8153-79e3f320fac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hwid">
+      <UniqueIdentifier>{d058e740-6fb0-4938-801a-de96fed6f3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="md5">
+      <UniqueIdentifier>{2502078e-442f-4a47-b836-aef704a8bc9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print">
+      <UniqueIdentifier>{61c73b7f-b21d-4a92-b801-51aec999f50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xor">
+      <UniqueIdentifier>{daa46d3c-3f6d-4ab5-8b55-115e0c711a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program">
+      <UniqueIdentifier>{b2fb4024-5a6c-47e4-a369-0f0625cbc3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpr">
+      <UniqueIdentifier>{2191b9b4-ed08-4465-a0fa-50d7758efcf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
